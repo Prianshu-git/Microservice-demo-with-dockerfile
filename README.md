@@ -19,6 +19,7 @@ docker-compose up --build
 #### Backend
 ```bash
 cd backend
+npm install
 node src/app.js
 ```
 
@@ -34,7 +35,7 @@ npm run start
 
 ![Screenshot 2025-04-19 at 04-58-24 ](https://github.com/user-attachments/assets/13cc60c3-3a77-4b63-88ca-9482a1dc0d61)
 
-Remember to reroute react port as our backend node server will be using it.
+Remember to reroute react port as our backend node server will be using it while running locally(without docker).
 
 
 
