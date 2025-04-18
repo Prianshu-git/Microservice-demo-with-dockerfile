@@ -29,6 +29,12 @@ cd frontend
 npm install
 npm start
 ```
+ 
+## The UI should look like this
+![Screenshot 2025-04-19 at 04-57-58 React App](https://github.com/user-attachments/assets/f212a13a-558b-41de-8f86-0b2b326d8fa8)
+![Screenshot 2025-04-19 at 04-58-24 ](https://github.com/user-attachments/assets/13cc60c3-3a77-4b63-88ca-9482a1dc0d61)
+
+
 
 ## API Endpoints
 - GET /api/items - Fetch all items
