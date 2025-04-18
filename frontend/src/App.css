@@ -1,0 +1,146 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* App Container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header */
+.app-header {
+  background-color: #6c63ff;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Main Section */
+.app-main {
+  flex: 1;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Form */
+.item-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.item-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #6c63ff;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.item-input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+.item-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.item-button:hover {
+  background-color: #4caf50;
+}
+
+/* Item List */
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  animation: slideIn 1s ease-in-out;
+}
+
+.item {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+.app-footer {
+  background-color: #6c63ff;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Existing Keyframes */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
